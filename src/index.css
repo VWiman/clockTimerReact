@@ -1,0 +1,49 @@
+body {
+  background: #F5F5F5;
+}
+
+.clocks {
+  display: flex;
+  flex-direction: row;
+  color: #003366;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.timers {
+  display: flex;
+  flex-direction: row;
+  color: #f95c5c;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-content: baseline;
+  align-items: baseline;
+  padding: 1rem;
+  margin: 0;
+  gap: 1rem;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.timers .col p {
+  line-height: 0mm;
+  margin: 0;
+}
+
+.heading {
+  font-family: monospace;
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: bolder;
+}
